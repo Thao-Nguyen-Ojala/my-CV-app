@@ -36,7 +36,7 @@ function HeroSection({
                     <Button buttonSize='btn--wide' buttonColor='blue' onClick={() => {window.open(url, '_blank')}}>{buttonLabel} </Button>
                   </div>}
                   {url2 && <div className='home__hero-button'>
-                    <Button buttonSize='btn--wide' buttonColor='blue' onClick={() => {window.open(url, '_blank')}}>{buttonLabel2} </Button>
+                    <Button buttonSize='btn--wide' buttonColor='blue' onClick={() => {window.open(url2, '_blank')}}>{buttonLabel2} </Button>
                   </div>}
                 </div>
               </div>
