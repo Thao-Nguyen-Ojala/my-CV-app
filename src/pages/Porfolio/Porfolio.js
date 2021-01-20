@@ -1,10 +1,11 @@
 import '../../App.css'
 import { HeroSection } from '../../components'
-import { myCV, covidApp, photoApp } from './Data'
+import { warehouseApp, myCV, covidApp, photoApp } from './Data'
 
 function Porfolio() {
   return(
     <>
+      <HeroSection {...warehouseApp} />
       <HeroSection {...myCV} />
       <HeroSection {...covidApp} />
       <HeroSection {...photoApp} />

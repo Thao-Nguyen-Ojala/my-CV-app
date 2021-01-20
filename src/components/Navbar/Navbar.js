@@ -22,8 +22,8 @@ function Navbar() {
   useEffect(() => {
     showButton();
   }, [])
-
-  window.addEventListener('resize', showButton)
+  
+  window.addEventListener('resize', showButton);
 
   return (
     <>
@@ -48,13 +48,11 @@ function Navbar() {
             </li>
             <li className='nav-btn'>
               {button ? (
-                <LinkButton className='btn-link' buttonStyle='btn--outline' directTo='contact'>CONTACT ME</LinkButton>
-              ) : (
-                <LinkButton className='btn-link' buttonStyle='btn--outline' directTo='contact' onClick={closeMobileMenu}>
-                  CONTACT ME
-                </LinkButton>
-              )
-            }
+                <LinkButton className='btn-links' buttonStyle='btn--outline' directTo='contact' >CONTACT ME</LinkButton>
+                ) : (
+                <LinkButton className='btn-links' buttonStyle='btn--outline' directTo='contact' onClick={closeMobileMenu}>CONTACT ME</LinkButton>
+                )
+              }
             </li>
           </ul>
         </div>
@@ -64,9 +62,3 @@ function Navbar() {
 }
 
 export default Navbar
-
-/*<li className='nav-item'>
-              <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
-                Sign Up
-              </Link>
-            </li>*/

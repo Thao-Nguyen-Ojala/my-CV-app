@@ -33,13 +33,13 @@
 
 .react-logo {
   text-align: center;
-  height: 10vmin;
+  height: 4em;
   pointer-events: none;
 }
 
 .linkedin-logo {
   text-align: center;
-  height: 10vmin;
+  height: 4em;
 }
 
 .footer-link-items h2 {
@@ -74,9 +74,8 @@
 
 .thao-icon {
   color: #2797CF;
-  font-size: 52px;
+  font-size: 5.2em;
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
   .react-logo {
@@ -90,5 +89,19 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .footer-link-wrapper {
+    flex-direction: column;
+  }
+
+  .footer-link-items {
+    margin-top: 10px;
+  }
+
+  .credit-wrapper {
+    flex-direction: column;
   }
 }

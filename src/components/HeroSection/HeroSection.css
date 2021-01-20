@@ -12,17 +12,20 @@
   align-items: center;
 }
 
+.container {
+  max-width: 100rem;
+}
+
 .row {
   display: flex;
   margin: 0 -1.5rem -1.5rem -1.5rem;
   flex-wrap: wrap;
   align-content: stretch;
-  max-width: 120rem;
-  margin: auto;
 }
+
 .col {
-  margin: 3rem 0 2rem 0;
-  padding: 0 1.5rem 0 1.5rem;
+  margin: 3rem 0 3rem 0;
+  padding: 0 1rem 0 1rem;
   flex: 1;
   max-width: 50%;
   flex-basis: 50%;
@@ -31,7 +34,7 @@
 .home__hero-text-wrapper {
   max-width: 100%;
   margin-top: 5rem;
-  padding: 0 0 12rem 0;
+  padding: 0 0.5rem 8rem 0.5rem;
 }
 
 .top-line {
@@ -82,7 +85,7 @@
 .home__hero-img {
   max-width: 80%;
   margin: auto;
-  margin-top: 5rem;
+  margin-top: 5rem 0 5rem 0;
   display: block;
 }
 
@@ -146,7 +149,7 @@ img {
 
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 375px) {
   .container {
     padding: 0;
   }

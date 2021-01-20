@@ -48,7 +48,7 @@ video {
   margin-left: 4px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1025px) {
   .welcome-container > h1 {
     font-size: 6rem;
     margin-top: 15rem;
@@ -80,8 +80,9 @@ video {
   }
 }
 
-@media screen and (max-width: 376px) {
-  .welcome-container > h1 {
+@media screen and (max-width: 480px) {
+   .welcome-container > h1 {
+    width: 100%;
     margin-top: 5rem;
     font-size: 2.5rem;
   }
