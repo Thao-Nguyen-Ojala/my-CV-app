@@ -17,7 +17,7 @@ export const warehouseApp = {
   buttonLabel: 'Visit my warehouse page',
   url: 'http://thao-warehouse.surge.sh/',
   buttonLabel2: 'GitHub',
-  url2: 'https://github.com/Thao-Nguyen-Ojala/covid-19-tracker-app',
+  url2: 'https://github.com/Thao-Nguyen-Ojala/warehouse-app-frontend',
   imgStart: 'start',
   img: warehouseAppImg,
   alt:'warehouseApp img', 
