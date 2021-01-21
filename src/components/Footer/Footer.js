@@ -26,7 +26,7 @@ function Footer() {
         <div className='credit-wrapper'>
           <MdFingerprint className='thao-icon' />
           <br/>
-          <small className='website-rights'>Thao Nguyen-Ojala © 2021</small>
+          <small className='website-rights'>Thao Nguyen-Ojala 2021</small>
           </div>
         </div>
       </section>

@@ -9,7 +9,7 @@ export const introduction = {
   lightTextDesc: false,
   topLine: '',
   headline: 'Introduction',
-  description: `I moved to Finland in 2012 to study and now I have Finnish citizenship and live with my family in Vantaa. During maternity leave, I have been self-studying vigorously to become a programmer. I have been going through online material, YouTube videos as well as fullstackopen initiative from Helsingin yliopisto and partnering companies. My current focus has been mostly on front-end and React, though I have learned the basics for backend as well (in theory). I am eager to learn more and cannot wait to put the skills I already acquired into good use in a real project`,
+  description: `I moved to Finland in 2012 to study and now I have Finnish citizenship and live with my family in Vantaa. During maternity leave, I have been self-studying vigorously to become a programmer. I have been going through online material, YouTube videos, Udemy courses as well as fullstackopen initiative from Helsingin yliopisto and partnering companies. My current focus has been mostly on front-end and React, though I have learned the basics for backend as well (in theory). I am eager to learn more and cannot wait to put the skills I already acquired into good use in a real project`,
   buttonLabel: 'button label',
   imgStart: '',
   img: studyingImg,

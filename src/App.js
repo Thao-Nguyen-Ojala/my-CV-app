@@ -3,7 +3,7 @@ import './App.css';
 import { Footer, Navbar } from './components/';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './pages/HomePage/Home'
-import Porfolio from './pages/Porfolio/Porfolio'
+import Portfolio from './pages/Portfolio/Portfolio'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Navbar />
           <Switch>
             <Route path='/' exact component={Home} />
-            <Route path='/porfolio' exact component={Porfolio} />
+            <Route path='/portfolio' exact component={Portfolio} />
           </Switch>
         <Footer />
       </Router>

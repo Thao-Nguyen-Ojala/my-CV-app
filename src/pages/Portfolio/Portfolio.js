@@ -2,7 +2,7 @@ import '../../App.css'
 import { HeroSection } from '../../components'
 import { warehouseApp, myCV, covidApp, photoApp } from './Data'
 
-function Porfolio() {
+function Portfolio() {
   return(
     <>
       <HeroSection {...warehouseApp} />
@@ -13,4 +13,4 @@ function Porfolio() {
   )
 }
 
-export default Porfolio
+export default Portfolio
