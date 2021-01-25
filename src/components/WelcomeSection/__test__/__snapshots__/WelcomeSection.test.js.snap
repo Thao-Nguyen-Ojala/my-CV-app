@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches WelcomSection snapshot 1`] = `
+<div
+  className="welcome-container"
+>
+  <video
+    autoPlay={true}
+    loop={true}
+    muted={true}
+    src="video-1.mp4"
+  />
+  <h1>
+    Hello there, I am Thao!
+  </h1>
+  <p>
+    Welcome to my page
+  </p>
+  <div
+    className="welcome-btns"
+  >
+    <a
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn--outline btn--large null"
+        data-testid="button"
+      >
+        INTRODUCTION
+      </button>
+    </a>
+    <a
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn--outline btn--large null"
+        data-testid="button"
+      >
+        SKILLS
+      </button>
+    </a>
+    <a
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn--outline btn--large null"
+        data-testid="button"
+      >
+        EXPERIENCE
+      </button>
+    </a>
+    <a
+      onClick={[Function]}
+    >
+      <button
+        className="btn btn--outline btn--large null"
+        data-testid="button"
+      >
+        EDUCATION
+      </button>
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches HeroSection snapshot 1`] = `
+<div
+  className="hero-section"
+  data-testid="heroSection-test"
+>
+  <div
+    className="home__hero-section darkBg"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row home__hero-row"
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="home__hero-text-wrapper"
+          >
+            <h1
+              className="heading"
+            />
+            <p
+              className="home__hero-subtitle dark"
+            />
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div
+            className="home_hero-img-wrapper"
+          >
+            <img
+              className="home__hero-img"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -9,7 +9,7 @@ import '../../App.css'
 function WelcomeSection() {
   return (
     <div className='welcome-container'>
-      <video src={video1} autoPlay loop muted />
+      <video src={video1} autoPlay loop muted={true} />
         <h1>Hello there, I am Thao!</h1>
         <p>Welcome to my page</p>
         <div className='welcome-btns'>

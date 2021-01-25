@@ -19,7 +19,7 @@ function HeroSection({
 }) {
   return (
     <>
-      <div className='hero-section' id={name}>
+      <div className='hero-section' id={name} data-testid='heroSection-test'>
         <div 
           className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
         >

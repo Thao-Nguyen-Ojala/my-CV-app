@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches LinkButton snapshot 1`] = `
+<div>
+  <a
+    data-testid="linkButton"
+    href="/testing"
+    onClick={[Function]}
+  >
+    <button
+      className="btn btn--outline btn--large red"
+      data-testid="button"
+    >
+      Testing
+    </button>
+  </a>
+</div>
+`;

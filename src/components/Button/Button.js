@@ -13,7 +13,8 @@ function Button ({children, type, onClick, buttonStyle, buttonSize, buttonColor}
   const checkButtonColor = COLOR.includes(buttonColor) ? buttonColor: null
 
   return (
-    <button 
+    <button
+      data-testid='button'
       className={`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor}`}
       onClick={onClick}
       type={type}

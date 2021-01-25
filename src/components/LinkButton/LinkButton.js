@@ -1,5 +1,5 @@
-import React from 'react'
-import Button from './Button';
+import React from 'react';
+import Button from '../Button/Button';
 import { Link } from 'react-router-dom';
 
 
@@ -7,7 +7,7 @@ function LinkButton({children, type, onClick, buttonStyle, buttonSize, buttonCol
 
   return (
     <div>
-      <Link to={`/${directTo}`}>
+      <Link data-testid='linkButton' to={`/${directTo}`}>
         <Button
           buttonColor={buttonColor}
           buttonSize={buttonSize}
