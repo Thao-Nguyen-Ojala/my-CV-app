@@ -2,11 +2,28 @@ import myCVImg from '../../media/images/myCV.png'
 import covidAppImg from '../../media/images/covidApp.png'
 import photoAppImg from '../../media/images/photoApp.png'
 import warehouseAppImg from '../../media/images/warehouseApp.png'
+import woltMockUpImg from '../../media/images/wolt-mockup.png'
 
-export const warehouseApp = {
+export const woltMockUp = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
+  topLine: 'THE FIFTH PROJECT: 1ST TYPESCRIPT PROJECT',
+  headline: 'Wolt mockup',
+  description: `This is my first project using Typescript with React to create the infinity carousel`,
+  buttonLabel: 'Infinity carousel',
+  url: 'http://thao-wolt-mockup.surge.sh/',
+  buttonLabel2: 'GitHub',
+  url2: 'https://github.com/Thao-Nguyen-Ojala/carousel-project',
+  imgStart: '',
+  img: woltMockUpImg,
+  alt:'woltMockUp img',
+}
+
+export const warehouseApp = {
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: 'THE FORTH PROJECT: ON GOING',
   headline: 'Warehouse app',
   description: `This is a warehouse fullstack app, where the focus is on handling the data (not that much effort on looks).
@@ -24,9 +41,9 @@ export const warehouseApp = {
 }
 
 export const myCV = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'THE THIRD PROJECT',
   headline: 'My curriculum vitae ',
   description: `This is my digital CV, which is made with React and Css. There are still some small issues with smaller screens.`,
@@ -40,9 +57,9 @@ export const myCV = {
 }
 
 export const covidApp = {
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
   topLine: 'THE SECOND PROJECT',
   headline: 'COVID-19 tracking app',
   description: `User can check the newest update of new infected cases, recovered as well as deaths cause by Covid-19 globally daily. In addition, user can also check the infected, recovery, and deaths chart of a specific country since its first case
@@ -58,9 +75,9 @@ export const covidApp = {
 }
 
 export const photoApp = {
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'THE FIRST PROJECT',
   headline: 'Photo App Project',
   description: `In this photo app the user can randomly check through the photos from https://picsum.photos, select their favourite photo, name, sort it and save it in category
