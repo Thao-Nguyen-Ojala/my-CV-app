@@ -22,7 +22,7 @@ export const skills = {
   lightTextDesc: true,
   topLine: '',
   headline: 'Skills',
-  description: `Front-end: HTML, JavaScript, React, Redux, axios, Material-UI, Bootstrap, Formik, ReactRouter, ....
+  description: `Front-end: HTML, JavaScript, Typescript, React, Redux, axios, Material-UI, Bootstrap, Formik, ReactRouter, ....
   
   Back-end: basic understanding of Node, Express, MongoDB
   
